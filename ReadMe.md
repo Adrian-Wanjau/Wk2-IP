@@ -5,7 +5,7 @@ The Author of this project is a student at Moringa School currently taking part 
 
 ## DESCRIPTION
 This is a web application in which contains all the work I have done during my second week of learning at [MORINGA School](https://moringaschool.com/). It used Javascript, Bootstrap, and HTML coded from [Visual Studio Code](https://code.visualstudio.com/). The web application is used to find the users Akan name if he or she was from Ghana. It prompts the user to input his or her gender and his or her Birth date then it calculates the day of the week the user was born and shows the Akan name of the user.
-Here is the [Live Site](https://Adrian-Wanjau.github.io/Wk2-IP)
+Here is the [Live Site](https://Adrian-Wanjau.github.io/Wk2-IP))
 
 ## Setup/Installation Requirements
 Clone this Repository onto your device then open the file and it will lead you to the Web Aplication.
