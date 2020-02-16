@@ -17,7 +17,7 @@ else{
     alert("You were born on " + birthDay);
 }
 
-var gender = (prompt("Please enter your Gender(Male or Female)"));
+var gender = (prompt("Please enter your Gender (Male or Female)"));
 if (gender == "Male") {
     if (birthDay == "Sunday") {
         alert("Akan name is Kwasi");
@@ -25,7 +25,7 @@ if (gender == "Male") {
     if (birthDay == "Monday") {
         alert("Akan name is Kwandwo");
     }
-    if (birthDay == "Teusday") {
+    if (birthDay == "Tuesday") {
         alert("Akan name is Kwabena");
     }
     if (birthDay == "Wednesday") {
