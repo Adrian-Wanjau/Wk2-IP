@@ -10,7 +10,7 @@ var results = parseInt(dayOfWeek(YY, CC, MM, DD));
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 var birthDay = days[results];
-if (birthDay==undefined){
+if (birthDay=="undefined"){
     alert(ERROR)
 }
 else{
