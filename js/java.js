@@ -12,3 +12,50 @@ var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 var birthDay = days[results];
 alert("You were born on " + birthDay);
 
+var gender = (prompt("Please enter your Gender(Male or Female)"));
+if (gender == "Male") {
+    if (birthDay == "Sunday") {
+        alert("Akan name is Kwasi");
+    }
+    if (birthDay == "Monday") {
+        alert("Akan name is Kwandwo");
+    }
+    if (birthDay == "Teusday") {
+        alert("Akan name is Kwabena");
+    }
+    if (birthDay == "Wednesday") {
+        alert("Akan name is Kwaku");
+    }
+    if (birthDay == "Thursday") {
+        alert("Akan name is Yaw");
+    }
+    if (birthDay == "Friday") {
+        alert("Akan name is Kofi");
+    }
+    if (birthDay == "Saturday") {
+        alert("Akan name is Kwame");
+    }
+}
+if (gender=="Female"){
+    if (birthDay == "Sunday") {
+        alert("Akan name is Akosua");
+    }
+    if (birthDay == "Monday") {
+        alert("Akan name is Adwoa");
+    }
+    if (birthDay == "Tuesday") {
+        alert("Akan name is Abenaa");
+    }
+    if (birthDay == "Wednesday") {
+        alert("Akan name is Akua");
+    }
+    if (birthDay == "Thursday") {
+        alert("Akan name is Yaa");
+    }
+    if (birthDay == "Friday") {
+        alert("Akan name is Afua");
+    }
+    if (birthDay == "Saturday") {
+        alert("Akan name is Ama");
+    }
+}
