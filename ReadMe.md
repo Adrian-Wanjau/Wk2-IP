@@ -4,15 +4,15 @@
 The Author of this project is a student at Moringa School currently taking part in the Prep Program.
 
 ## DESCRIPTION
-This is a web application in which contains all the work i have done during my second week of learning at [MORINGA School](https://moringaschool.com/). It is used Javascript, Bootstrap, and HTML coded from [Visual Studio Code](https://code.visualstudio.com/). The web application is used to find the users Akan name if he or she was from Ghana. It prompts the user to input his or her gender and his or her Birth date then it calculates the day of the week the user was born and shows the Akan name of the user.
+This is a web application in which contains all the work I have done during my second week of learning at [MORINGA School](https://moringaschool.com/). It used Javascript, Bootstrap, and HTML coded from [Visual Studio Code](https://code.visualstudio.com/). The web application is used to find the users Akan name if he or she was from Ghana. It prompts the user to input his or her gender and his or her Birth date then it calculates the day of the week the user was born and shows the Akan name of the user.
 
 ## Setup/Installation Requirements
 Clone this Repository onto your device then open the file and it will lead you to the Web Aplication.
 
 ## TECHNOLOGIES USED
-Visual studio code was used in coding the HTML, Bootstrap, and Javascript.
-[JSFiddle](https://jsfiddle.net/) was used in testing the Javascript section.
-The Text editor was used in writing the ReadMe.
+1. Visual studio code was used in coding the HTML, Bootstrap, and Javascript.
+2. [JSFiddle](https://jsfiddle.net/) was used in testing the Javascript section.
+3. The Text editor was used in writing the ReadMe.
 
 ## CONTACTS
 Phone Number: 0704204925
