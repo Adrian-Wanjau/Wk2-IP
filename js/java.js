@@ -10,7 +10,12 @@ var results = parseInt(dayOfWeek(YY, CC, MM, DD));
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 var birthDay = days[results];
-alert("You were born on " + birthDay);
+if (birthDay==undefined){
+    alert(ERROR)
+}
+else{
+    alert("You were born on " + birthDay);
+}
 
 var gender = (prompt("Please enter your Gender(Male or Female)"));
 if (gender == "Male") {
@@ -58,4 +63,7 @@ if (gender=="Female"){
     if (birthDay == "Saturday") {
         alert("Akan name is Ama");
     }
+}
+else{
+    alert(ERROR)
 }
