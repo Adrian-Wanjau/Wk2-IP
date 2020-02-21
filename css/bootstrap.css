@@ -55,12 +55,16 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .Yellow img{
   float: right;
   width: 35%;
-  height: 84%;
+  height: auto;
 }
 
 img{
   width: 65%;
   height: auto;
+}
+
+#blanks{
+  border: 2px red;
 }
 
 body {

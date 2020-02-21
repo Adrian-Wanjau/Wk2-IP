@@ -2,11 +2,13 @@
   <head>
     <title>Week 2 Project</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/java.js"></script>
   </head>
   <body>
     <h1>Web Application</h1>
-    <script src="js/java.js"></script>
     <h2>Description</h2>
+    
     <div class="Yellow">
       <img src="images/download.png" alt="Akan names">
       <p>
@@ -15,6 +17,33 @@
          <a href="https://Adrian-Wanjau.github.io/Wk2-IP">Live Site</a>
       </p>
     </div>
+    
     <img src="images/download.jpeg" alt="Thank you">
+    
+    <div id="blanks">
+      <h2>Please fill in this form to check your Akan name</h2>
+      <form>
+        <div class="form-group">
+          <label for="gender">Choose your Gender</label>
+          <div id= "gender">
+            <input id="gender" type="radio" name = "choice" value="male" checked>Male
+            <input id="gender" type="radio" name = "choice" value="female">Female
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="YYYY">Enter Year of Birth</label><br>
+          <input id="YYYY" type="number" mim="1900" max="2100" placeholder="YYYY">
+        </div>
+        <div class="form-group">
+          <label for="MM">Enter your Month Number of Birth</label><br>
+          <input id="MM" min="01" max="12" type="number" placeholder="MM">
+        </div>
+        <div class="form-group">
+          <label for="DD">Enter your Date of Birth</label><br>
+          <input id="DD" max="31" placeholder="DD" type="number">
+        </div>
+        <button type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="results()">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
